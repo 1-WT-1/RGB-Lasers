@@ -19,18 +19,16 @@ var _savedObjects := []
 # Script and scene replacements should be done here, before the originals are loaded
 func _init(modLoader = ModLoader):
 	l("Initializing")
-	
+
+	replaceScene("weapons/caramel.mp3str", "res://weapons/laser.wav")
 	installScriptExtension("weapons/laser.gd")
-	
+
 	l("Initialized")
 
 
 # Do stuff on ready
 # At this point all AutoLoads are available and the game is loaded
 func _ready():
-	l("Readying")
-
-	
 	l("Ready")
 
 
