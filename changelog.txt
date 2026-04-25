@@ -1,0 +1,11 @@
+[2.1.0]
+1="* Added configurations to toggle RGB, Caramelldansen sound effects and color cycling speed"
+2="* Disabled Caramelldansen sound for pulse lasers to preserve hearing"
+3="* Improved mod compatibility"
+4="* Modernized to use HevLib"
+
+[2.0.0]
+1="* Fixes by Za'krin"
+
+[1.0.0]
+1="* Initial release"

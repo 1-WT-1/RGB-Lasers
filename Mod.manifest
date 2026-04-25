@@ -1,0 +1,51 @@
+[mod_information]
+
+id="wt.RGBLasers"
+name="RGB Lasers"
+description="RGBLASERS_MOD_DESCRIPTION"
+brief="RGBLASERS_MOD_BRIEF"
+author="WT"
+credits=["Za'krin - fixes"]
+
+[version]
+
+version_major=2
+version_minor=1
+version_bugfix=0
+
+[configs]
+
+RGBLASERS_SETTINGS={
+    "enable_rgb":{
+        "name":"RGBLASERS_ENABLE_RGB_NAME",
+        "description":"RGBLASERS_ENABLE_RGB_DESC",
+        "type":"bool",
+        "default":true
+    },
+    "enable_caramel":{
+        "name":"RGBLASERS_ENABLE_CARAMEL_NAME",
+        "description":"RGBLASERS_ENABLE_CARAMEL_DESC",
+        "type":"bool",
+        "default":true
+    },
+    "color_cycle_speed":{
+        "name":"RGBLASERS_COLOR_CYCLE_SPEED_NAME",
+        "description":"RGBLASERS_COLOR_CYCLE_SPEED_DESC",
+        "type":"float",
+        "min":0.1,
+        "max":10.0,
+        "step":0.1,
+        "default":1.0
+    }
+}
+
+[languages]
+en="100%"
+
+[links]
+HEVLIB_GITHUB={"URL":"https://github.com/1-WT-1/RGB-Lasers"}
+
+[manifest_definitions]
+manifest_version=2.2
+manifest_url="https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest"
+changelog_path="changelog.txt"
