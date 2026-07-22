@@ -10,7 +10,7 @@ credits=["Za'krin - fixes"]
 [version]
 
 version_major=2
-version_minor=1
+version_minor=2
 version_bugfix=0
 
 [configs]
@@ -39,9 +39,6 @@ RGBLASERS_SETTINGS={
     }
 }
 
-[languages]
-en="100%"
-
 [links]
 HEVLIB_GITHUB={"URL":"https://github.com/1-WT-1/RGB-Lasers"}
 
@@ -49,3 +46,5 @@ HEVLIB_GITHUB={"URL":"https://github.com/1-WT-1/RGB-Lasers"}
 manifest_version=2.2
 manifest_url="https://raw.githubusercontent.com/1-WT-1/RGB-Lasers/refs/heads/main/Mod.manifest"
 changelog_path="changelog.txt"
+modlet_priority=0
+

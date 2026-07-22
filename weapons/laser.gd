@@ -6,17 +6,17 @@ var current_hue = 0.0
 var color_cycle_speed = 1.0 # Speed of color cycling
 
 func _ready():
-	var ConfigDriver = load("res://HevLib/pointers/ConfigDriver.gd")
-	if ConfigDriver:
-		var cfg_caramel = ConfigDriver.__get_value("RGBLasers", "RGBLASERS_SETTINGS", "enable_caramel")
+	var pointers = CurrentGame.get_tree().get_root().get_node_or_null("HevLib~Pointers")
+	if pointers:
+		var cfg_caramel = pointers.ConfigDriver.__get_value("RGBLasers", "RGBLASERS_SETTINGS", "enable_caramel")
 		if cfg_caramel != null:
 			enable_caramel = cfg_caramel
 			
-		var cfg_rgb = ConfigDriver.__get_value("RGBLasers", "RGBLASERS_SETTINGS", "enable_rgb")
+		var cfg_rgb = pointers.ConfigDriver.__get_value("RGBLasers", "RGBLASERS_SETTINGS", "enable_rgb")
 		if cfg_rgb != null:
 			enable_rgb = cfg_rgb
 			
-		var cfg_speed = ConfigDriver.__get_value("RGBLasers", "RGBLASERS_SETTINGS", "color_cycle_speed")
+		var cfg_speed = pointers.ConfigDriver.__get_value("RGBLasers", "RGBLASERS_SETTINGS", "color_cycle_speed")
 		if cfg_speed != null:
 			color_cycle_speed = cfg_speed
 

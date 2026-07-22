@@ -1,3 +1,7 @@
+[2.2.0]
+1="* Converted to modlet"
+2="* Added LICENSE"
+
 [2.1.0]
 1="* Added configurations to toggle RGB, Caramelldansen sound effects and color cycling speed"
 2="* Disabled Caramelldansen sound for pulse lasers to preserve hearing"

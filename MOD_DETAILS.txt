@@ -2,6 +2,7 @@
 ;MOD_NAME|RGB Lasers
 ;MOD_ZIP_NAME|RGB-Lasers.zip
 
+[center][b]RGB Lasers[/b][/center]
 
 Makes mining lasers color cycle through the RGB spectrum.
 Includes Caramelldansen sound replacement for the firing sound.
